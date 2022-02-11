@@ -5,8 +5,9 @@
 }
 
 body {
-    color: #39a6b2;
+    color: black;
     font-family: Helvetica, Arial, Helvetica, sans-serif;
+    background-color: lightgray;
 }
 
 header {
@@ -15,4 +16,116 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 20px 35px;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+    color: lightgray;
+}
+
+header a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+/* styles the navigation list */
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+/* styles the list items in the navigation list */
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 1.55vw;
+}
+
+section {
+    padding: 80px;
+}
+
+.hero {
+    background-image: url("../images/hero.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: flex;
+}
+
+.comfortable h3 {
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    padding: 10px;
+    background-color: rgba(211,211,211, 0.25);
+    font-style: oblique;
+    border-radius: 25px;
+}
+
+.about {
+    font-size: 30px;
+    display: flex;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.about h2 {
+    border-right: 4px solid black;
+}
+
+.about p {
+    font-size: 16px;
+    padding: 50px;
+}
+
+.work {
+    font-size: 30px;
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.work h2 {
+    border-right: 4px solid black;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.contact-me {
+    font-size: 30px;
+    display: flex;
+}
+
+.contact-me h2 {
+    border-right: 4px solid black;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.contact-me ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    padding: 50px;
+}
+
+.contact-me ul li {
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 1.55vw;
+    text-decoration: underline;
+}
+
+.contact-me ul li a {
+    text-decoration: underline;
+    color: black;
 }
